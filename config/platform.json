@@ -1,0 +1,36 @@
+{
+  "tenantId": "",
+  "location": "swedencentral",
+  "managementGroups": {
+    "prefix": "company",
+    "rootDisplayName": "Company"
+  },
+  "sshPublicKeyPath": "",
+  "testUserUpn": "",
+  "management": {
+    "subscriptionId": ""
+  },
+  "connectivity": {
+    "subscriptionId": "",
+    "bastionUsersGroup": {
+      "name": "sg-hub-shared-bastion-users",
+      "objectId": ""
+    }
+  },
+  "landingZones": {
+    "app1-dev": {
+      "subscriptionId": "",
+      "vmAdminLoginGroup": {
+        "name": "sg-app1-dev-vm-admin-login",
+        "objectId": ""
+      }
+    },
+    "app2-dev": {
+      "subscriptionId": "",
+      "vmAdminLoginGroup": {
+        "name": "sg-app2-dev-vm-admin-login",
+        "objectId": ""
+      }
+    }
+  }
+}
