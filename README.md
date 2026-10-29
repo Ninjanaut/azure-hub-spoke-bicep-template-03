@@ -2,6 +2,11 @@
 
 Minimal hub-spoke network in Azure, built with Bicep and Azure Verified Modules (AVM), following the Azure landing zone (ALZ) layout: a management subscription with a central Log Analytics workspace, a hub with Azure Firewall (Basic), Azure Bastion and Private DNS, and two spokes. All traffic leaving a spoke goes through the firewall, and spoke subnets are private. Compared to part 2, the firewall replaces the Linux VM router, and a management group hierarchy with Azure Policy on the Corp group is added.
 
+Mangement groups:
+![Hub-spoke topology](diagram/mg.png)
+
+Deployed subscriptions:
+
 ![Hub-spoke topology](diagram/hub-spoke-firewall.png)
 
 ## Prerequisites
